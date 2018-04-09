@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Sergej Charskij](https://up.htmlacademy.ru/adaptive/14/user/84251).
-* Наставник: `Неизвестно`.
+* Наставник: `Павел Фомин`.
 
 ---
 
