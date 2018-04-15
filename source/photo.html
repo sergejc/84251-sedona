@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,108 @@
     <title>HTML Academy: Седона - photo.html</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
+
 <body>
-    
+    <header class="page-header">
+        <a href="#" class="page-header__logo-link">
+            <img src="http://placehold.it/102x83" alt="СЕДОНА — небольшой городок в АРИЗОНЕ" class="page-header__logo-image" height="102"
+                width="83">
+        </a>
+        <nav class="main-nav">
+            <button class="main-nav__toggle" type="button">Открыть меню</button>
+            <div class="main-nav__wrapper">
+                <ul class="main-nav__list site-list">
+                    <li class="site-list__item">
+                        <a href="#">Главная</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Фото и видео</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Форма отзыва</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">HTML academy</a>
+                    </li>
+                </ul>
+                <div class="intro">
+                    <strong class="intro__header">Фото и видео</strong>
+                    <p class="intro__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <h1 class="visually-hidden">Фотогалерея города Седона</h1>
+        <section class="gallery">
+            <h2 class="gallery__title">Фото и видео</h2>
+            <p class="gallery__description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+            <ul class="gallery__list">
+                <li class="gallery__item photo">
+                    <img class="photo__image" src="http://placehold.it/280x280" alt="Неродные просторы" width="280" height="280">
+                    <h3 class="photo__title">Неродные просторы</h3>
+                    <address class="photo__author">Автор фото:
+                        <a rel="author" href="#">Борис</a>
+                    </address>
+                    <a class="photo__like" href="#">1350</a>
+                </li>
+                <li class="gallery__item photo">
+                    <img class="photo__image" src="http://placehold.it/280x280" alt="Местная растительность" width="280" height="280">
+                    <h3 class="photo__title">Местная растительность</h3>
+                    <address class="photo__author">Автор фото:
+                        <a rel="author" href="#">Сергей</a>
+                    </address>
+                    <a class="photo__like" href="#">143</a>
+                </li>
+                <li class="gallery__item photo">
+                    <img class="photo__image" src="http://placehold.it/280x280" alt="Дорога на север" width="280" height="280">
+                    <h3 class="photo__title">Дорога на север</h3>
+                    <address class="photo__author">Автор фото:
+                        <a rel="author" href="#">Петр</a>
+                    </address>
+                    <a class="photo__like" href="#">1350</a>
+                </li>
+                <li class="gallery__item photo">
+                    <img class="photo__image" src="http://placehold.it/280x280" alt="Мост дьявола" width="280" height="280">
+                    <h3 class="photo__title">Мост дьявола</h3>
+                    <address class="photo__author">Автор фото:
+                        <a rel="author" href="#">Антон</a>
+                    </address>
+                    <a class="photo__like" href="#">254</a>
+                </li>
+
+                <li class="gallery__item video">
+                    <h3 class="video__title">Все еще сомневаетесь?</h3>
+                    <p class="video__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+                    <img class="video__player" src="http://placehold.it/321x201" alt="Смотрите видеопрезентацию" width="321" height="201">
+                </li>
+
+            </ul>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="page-footer__hash-tag hash-tag">
+            <a class="hash-tag__link" href="https://twitter.com/hashtag/hashtag">#visitsedona</a>
+        </div>
+        <div class="page-footer__social social">
+            <ul class="social__list">
+                <li class="social__item">
+                    <a class="social__link social__link--twitter" href="#">Twitter</a>
+                </li>
+                <li class="social__item">
+                    <a class="social__link social__link--facebook" href="#">Facebook</a>Facebook</li>
+                <li class="social__item">
+                    <a class="social__link social__link--youtube" href="#">Youtube</a>Youtube</li>
+            </ul>
+            <div class="page-footer__copyright copyright">
+                <b class="copyright__text">Разработано</b>
+                <a href="https://up.htmlacademy.ru/adaptive/14">
+                    <img src="http://placehold.it/27x34" alt="HTMLAcademy Logo" width="27" height="34">HTML и CSS, уровень 2</a>
+            </div>
+
+        </div>
+    </footer>
 </body>
+
 </html>

@@ -1,13 +1,123 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона - index.html</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML Academy: Седона - index.html</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <a href="#" class="page-header__logo-link">
+      <img src="http://placehold.it/102x83" alt="СЕДОНА — небольшой городок в АРИЗОНЕ" class="page-header__logo-image" height="102"
+        width="83">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фото и видео</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Форма отзыва</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML academy</a>
+          </li>
+        </ul>
+        <div class="intro">
+          <strong class="intro__header">Седона — небольшой городок в аризоне, заслуживающий большего!</strong>
+          <p class="intro__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Седона — город, расположенный по обе стороны границы между округами Коконино и Явапай в северной области Долины Верде
+      штата Аризона
+    </h1>
+    <section class="info">
+      <h2 class="visually-hidden">Основные достопримечательности Седоны</h2>
+      <ul class="info__list">
+        <li class="info__item">
+          <h3 class="info__title">Настоящий городок - №1 -</h3>
+          <p class="info__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
+          <img src="http://placehold.it/520x260" alt="Вид на город" width="520" height="260">
+          <ul class="features">
+            <li class="features__item">
+              <h4 class="features__header features__header--accomodation">Жилье</h4>
+              <p class="features__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+            </li>
+            <li class="features__item">
+              <h4 class="features__header features__header--shop">Сувениры</h4>
+              <p class="features__text">Не только китайского, но и местного производства!</p>
+            </li>
+          </ul>
+          <li class="features__item">
+            <h4 class="features__header features__header--food">Еда</h4>
+            <p class="features__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+        </li>
+        <li class="info__item">
+          <h3 class="info__title">Там есть мост дьявола - №2 -</h3>
+          <p class="info__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+          <img class="info__image" src="http://placehold.it/520x260" alt="Фото моста" width="520" height="260">
+        </li>
+        <li class="info__item">
+          <h3 class="info__title">Небольшая площадь - №3 -</h3>
+          <p class="info__text">Все интересные места находятся очень близко</p>
+        </li>
+        <li class="info__item">
+          <h3 class="info__title">Красивая дорога — №4 —</h3>
+          <p class="info__text">Ехать в седону из лас-вегаса совсем не скучно!</p>
+        </li>
+        <li class="info__item">
+          <h3 class="info__title">Мало туристов — №5 —</h3>
+          <p class="info__text">Большинство едет в гранд каньон и толпится там</p>
+        </li>
+      </ul>
+    </section>
+    <section class="contact-us">
+      <h2 class="contact-us__title">Заинтересовались?</h2>
+      <p class="contact-us__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+      <a class="contact-us__link button" href="#">Найти гостиницу</a>
+    </section>
+    <section class="map">
+      <img class="map__image" src="http://placehold.it/320x350" alt="Карта аризоны" width="320" height="350">
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__hash-tag hash-tag">
+      <a class="hash-tag__link" href="https://twitter.com/hashtag/hashtag">#visitsedona</a>
+    </div>
+    <div class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link social__link--twitter" href="#">Twitter</a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--facebook" href="#">Facebook</a>Facebook</li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="#">Youtube</a>Youtube</li>
+      </ul>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано</b>
+        <a href="https://up.htmlacademy.ru/adaptive/14">
+          <img src="http://placehold.it/27x34" alt="HTMLAcademy Logo" width="27" height="34">HTML и CSS, уровень 2</a>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+
 </html>
