@@ -2,23 +2,24 @@
     text-align: center;
 }
 
-.intro__baner {
+.index-page .intro {
     background-color: #e3f0f8;
-    background-image: url('../img/bg-back-mobile@1x.jpg')
+    background: url('../img/bg-back-mobile@1x.jpg') no-repeat center center;
+    height: 389px;
 }
 
-.intro__header {
-    display: block;
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 800;
-    text-transform: uppercase;
+.index-page .intro__baner {
+    margin-top: 85px;
 }
 
-.intro__text {
-    font-size: 14px;
-    line-height: 26px;
-    color: #333;
-    padding: 0;
-    margin: 0;
+.photo-page .intro__baner, 
+.form-page .intro__baner {
+    margin-top: 50px;
+}
+
+.photo-page .intro,
+.form-page .intro {
+    background-color: #e3f0f8;
+    background: url('../img/bg-back-mobile@1x.jpg') no-repeat center center;
+    height: 159px;
 }
