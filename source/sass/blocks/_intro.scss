@@ -1,0 +1,24 @@
+.intro {
+    text-align: center;
+}
+
+.intro__baner {
+    background-color: #e3f0f8;
+    background-image: url('../img/bg-back-mobile@1x.jpg')
+}
+
+.intro__header {
+    display: block;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.intro__text {
+    font-size: 14px;
+    line-height: 26px;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,34 @@
+.info {
+    text-align: center;
+}
+
+.info__list {
+    @extend %list-reset;
+}
+
+.info__item--long {
+    background-color: #81b3d2;
+}
+
+.info__item--short {
+    background-color: #eee;
+}
+
+.info__title {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+.info__text {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0;
+    margin: 0;
+}
+
+.info__item--long .info__title,
+.info__item--long .info__text {
+    color: #fff;
+}

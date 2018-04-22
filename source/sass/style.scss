@@ -1,12 +1,26 @@
-/**                       **\
-*     mixins, variables     *
-\**                       **/
+/**                        **\
+* mixins, variables, general *
+\**                        **/
 @import "mixins";
 @import "variables";
+@import "general";
 
-/**                       **\
-*        Main blocks        *
-\**                       **/
+/**                        **\
+*        Main blocks         *
+\**                        **/
 @import "blocks/page-header";
 @import "blocks/page-main";
 @import "blocks/page-footer";
+
+
+
+@import "blocks/main-nav";
+@import "blocks/page-header";
+@import "blocks/intro";
+@import "blocks/info";
+@import "blocks/features";
+@import "blocks/contact-us";
+@import "blocks/map";
+@import "blocks/social";
+@import "blocks/hash-tag";
+@import "blocks/copyright";

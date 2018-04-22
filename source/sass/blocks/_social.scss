@@ -1,0 +1,19 @@
+.social__list {
+    @extend %list-reset;
+    display: flex;
+    justify-content: center;
+}
+
+.social__link {
+    text-indent: -9999px;
+    display: inline-block;
+    vertical-align: top;
+    width: 46px;
+    height: 48px;
+    background-color: #81b3d2;
+}
+
+
+.social__item:not(:last-of-type) .social__link {
+    margin-right: 5px;
+}
