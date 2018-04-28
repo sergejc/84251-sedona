@@ -1,0 +1,40 @@
+.info {
+    text-align: center;
+}
+
+.info__list {
+    @extend %list-reset;
+    font-size: 0;
+}
+
+.info__item--long {
+    background-color: #81b3d2;
+}
+
+.info__item--short {
+    background-color: #eee;
+    padding: 35px 0 35px 0;
+}
+
+.info__title {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+.info__text {
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0;
+    margin: 0 0 45px 0;
+}
+
+.info__item--long .info__title,
+.info__item--long .info__text {
+    color: #fff;
+}
+
+.info__item {
+    padding-top: 45px;
+}

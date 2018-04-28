@@ -1,0 +1,14 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header__logo-link {
+    position: relative;
+}
+
+.page-header__logo-image {
+    position: absolute;
+    top: 0px;
+    left: -50px;
+}

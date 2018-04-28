@@ -1,0 +1,25 @@
+.intro {
+    text-align: center;
+}
+
+.index-page .intro {
+    background-color: #e3f0f8;
+    background: url('../img/bg-back-mobile@1x.jpg') no-repeat center center;
+    height: 389px;
+}
+
+.index-page .intro__baner {
+    margin-top: 85px;
+}
+
+.photo-page .intro__baner, 
+.form-page .intro__baner {
+    margin-top: 50px;
+}
+
+.photo-page .intro,
+.form-page .intro {
+    background-color: #e3f0f8;
+    background: url('../img/bg-back-mobile@1x.jpg') no-repeat center center;
+    height: 159px;
+}
