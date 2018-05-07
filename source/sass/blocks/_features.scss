@@ -19,3 +19,10 @@
     padding: 0;
     margin: 0 0 40px 0;
 }
+
+@media (min-width: $tablet-width) {
+    .features {
+        display: flex;
+        flex-direction: row;
+    }
+}

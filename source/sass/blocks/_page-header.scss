@@ -4,11 +4,9 @@
 }
 
 .page-header__logo-link {
+    display: block;
+    margin: 0 auto;
     position: relative;
-}
-
-.page-header__logo-image {
-    position: absolute;
-    top: 0px;
-    left: -50px;
+    width: 102px;
+    height: 84px;
 }

@@ -27,7 +27,7 @@
     font-size: 14px;
     line-height: 21px;
     padding: 0;
-    margin: 0 0 45px 0;
+    margin: 0;
 }
 
 .info__item--long .info__title,
@@ -37,4 +37,37 @@
 
 .info__item {
     padding-top: 45px;
+}
+
+@media (min-width: $tablet-width) {
+    .info__item {
+        padding: 0;
+    }
+
+    .info__item--long {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .info__item:nth-child(3) .info__text-wrapper {
+        order: 1;
+    }
+
+    .info__text-wrapper {
+        width: 33.3333%;
+    }
+    
+    .info__image {
+        width: 66.6666%;
+    }
+
+    .info__item--short {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .info__item-group {
+        width: 33.3333%;
+    }
 }

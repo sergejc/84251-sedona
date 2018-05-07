@@ -4,7 +4,7 @@ body {
     text-align: center;
 }
 
-.img {
+img {
     max-width: 100%;
     height: auto;
 }
@@ -26,4 +26,22 @@ body {
     background-color: #81b3d2;
     color: #fff;
     padding: 18px 0;
+}
+
+.container {
+    width: $mobile-width;
+    margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+    .container {
+        width: $tablet-width;
+    }
+}
+
+@media (min-width: $desctop-widht) {
+    .container {
+        width: $desctop-widht;
+        padding: 0 40px;
+    }
 }
