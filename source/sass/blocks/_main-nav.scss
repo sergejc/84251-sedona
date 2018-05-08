@@ -66,6 +66,14 @@
   height: 55px;
 }
 
+.main-nav__link:hover {
+  color: #81b3d2;
+}
+
+.main-nav__link--active {
+  color: #766357;
+}
+
 @media (min-width: $tablet-width) {
   .main-nav {
     font-size: 14px;
@@ -84,6 +92,24 @@
   .main-nav__link {
     background-color: #ffffff;
     color: #000000;
+  }
+
+  .main-nav__link:hover {
+    color: #81b3d2;
+  }
+
+  .main-nav__link:active {
+    color: #000000;
+    opacity: 0.3;
+  }
+
+  .main-nav__link--active {
+    color: #766357;
+  }
+
+  .main-nav__link--active:active {
+    color: #766357;
+    opacity: 0.3;
   }
 
   .main-nav__item {
