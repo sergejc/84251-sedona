@@ -11,19 +11,20 @@
   position: absolute;
   width: 23px;
   height: 22px;
-  top: 14px;
-  right: 10px;
+  top: 17px;
+  right: 20px;
   border: none;
+  background: url("../img/icon-cross.svg") no-repeat;
   background-color: transparent;
   cursor: pointer;
 }
 
-.main-nav__toggle-close {
-  background: url("../img/icon-menu.svg") no-repeat;
+.no-js .main-nav__toggle {
+  display: none;
 }
 
 .main-nav__toggle-open {
-  background: url("../img/icon-cross.svg") no-repeat;
+  background: url("../img/icon-menu.svg") no-repeat;
 }
 
 .main-nav__list {
@@ -34,6 +35,18 @@
 
 .main-nav__item {
   line-height: 55px;
+}
+
+.no-js .main-nav__item:not(:last-child) {
+  display: block;
+}
+
+.main-nav__item:not(:last-child) {
+  display: none;
+}
+
+.main-nav__list--open .main-nav__item {
+  display: block;
 }
 
 .main-nav__item:last-child {
@@ -75,6 +88,10 @@
 
   .main-nav__item {
     width: 20%;
+  }
+
+  .main-nav__item:not(:last-child) {
+    display: block;
   }
 
   .main-nav__item:not(:first-child) .main-nav__link {
