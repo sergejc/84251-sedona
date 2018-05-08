@@ -4,7 +4,7 @@
 
 .page-index .intro {
     background-color: #e3f0f8;
-    background-image:  url('../img/bg-intro-triangle-mobile.svg'), url('../img/bg-back-mobile@1x.jpg');
+    background-image: url('../img/bg-intro-triangle-mobile.svg'), url('../img/bg-back-mobile@1x.jpg');
     background-repeat: no-repeat;
     background-position: 50% bottom;
     background-size: cover;
@@ -15,7 +15,7 @@
     margin-top: 85px;
 }
 
-.page-photo .intro__baner, 
+.page-photo .intro__baner,
 .page-form .intro__baner {
     margin-top: 50px;
 }
@@ -30,11 +30,9 @@
 @media (min-width: $tablet-width) {
     .page-index .intro {
         height: 517px;
-        background-image:  url('../img/bg-intro-triangle-mobile.svg'), url('../img/bg-back-mobile@1x.jpg');
+        background-image: url('../img/bg-intro-triangle-mobile.svg'), url('../img/bg-back-mobile@1x.jpg');
     }
-
-    .page-photo .intro
-    .page-form .intro {
+    .page-photo .intro .page-form .intro {
         height: 291px;
     }
 }
