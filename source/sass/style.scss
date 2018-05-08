@@ -1,7 +1,6 @@
 /**                        **\
 * mixins, variables, general *
 \**                        **/
-@import "mixins";
 @import "variables";
 @import "general";
 
@@ -9,7 +8,6 @@
 *        Main blocks         *
 \**                        **/
 @import "blocks/page-header";
-@import "blocks/page-main";
 @import "blocks/page-footer";
 
 /**                        **\
