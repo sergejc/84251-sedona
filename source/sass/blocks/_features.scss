@@ -1,28 +1,29 @@
 .features {
-    @extend %list-reset;
-    background-color: #fff;
-    padding: 25px 0 40px 0;
+  list-style: none;
+  margin: 0;
+  background-color: #ffffff;
+  padding: 25px 0 40px 0;
 }
 
 .features__header {
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 800;
-    padding: 0;
-    margin: 0 0 25px 0;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0 0 25px 0;
 }
 
 .features__text {
-    font-size: 14px;
-    line-height: 21px;
-    color: #333;
-    padding: 0;
-    margin: 0 0 40px 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  padding: 0;
+  margin: 0 0 40px 0;
 }
 
 @media (min-width: $tablet-width) {
-    .features {
-        display: flex;
-        flex-direction: row;
-    }
+  .features {
+    display: flex;
+    flex-direction: row;
+  }
 }

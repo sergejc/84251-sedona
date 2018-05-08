@@ -1,13 +1,13 @@
 .page-footer {
-    padding: 40px 0 20px 0;
-    display: flex;
-    flex-direction: column;
+  padding: 40px 0 20px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: $tablet-width) {
-    .page-footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

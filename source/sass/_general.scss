@@ -1,47 +1,47 @@
 body {
-    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    text-align: center;
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0, 0, 0, 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
 }
 
 .button {
-    background-color: #81b3d2;
-    color: #fff;
-    padding: 18px 0;
+  background-color: #81b3d2;
+  color: #ffffff;
+  padding: 18px 0;
 }
 
 .container {
-    width: $mobile-width;
-    margin: 0 auto;
+  width: $mobile-width;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
-    .container {
-        width: $tablet-width;
-    }
+  .container {
+    width: $tablet-width;
+  }
 }
 
 @media (min-width: $desctop-widht) {
-    .container {
-        width: $desctop-widht;
-        padding: 0 40px;
-    }
+  .container {
+    width: $desctop-widht;
+    padding: 0 40px;
+  }
 }

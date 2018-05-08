@@ -1,51 +1,51 @@
 .contact-form__container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form__fieldset {
-    border: none;
-    display: flex;
-    flex-direction: column;
+  border: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-form__title {
-    font-size: 18px;
-    line-height: 26px;
-    font-weight: 800;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 800;
 }
 
 .contact-form__label {
-    font-size: 14px;
-    line-height: 26px;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 @media (min-width: $tablet-width) {
-    .contact-form__container {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+  .contact-form__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-    .contact-form__impression {
-        order: 1;
-        width: 50%;
-    }
-    
-    .contact-form__name {
-        order: 2;
-        width: 50%;
-    }
+  .contact-form__impression {
+    order: 1;
+    width: 50%;
+  }
 
-    .contact-form__phone {
-        order: 3;
-    }
+  .contact-form__name {
+    order: 2;
+    width: 50%;
+  }
 
-    .contact-form__sightseeing {
-        order: 4;
-        width: 50%;
-    }
+  .contact-form__phone {
+    order: 3;
+  }
 
-    .text-review {
-        order: 5;
-    }
+  .contact-form__sightseeing {
+    order: 4;
+    width: 50%;
+  }
+
+  .text-review {
+    order: 5;
+  }
 }
