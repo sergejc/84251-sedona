@@ -1,35 +1,103 @@
 .main-nav {
-    font-size: 18px;
-    line-height: 40px;
-    font-weight: bold;
-    text-align: center;
-    order: -1;
+  position: relative;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  order: -1;
 }
 
 .main-nav__toggle {
-    position: absolute;
-    text-indent: -9999px;
-    border: none;
-    background-color: transparent;
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 14px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.main-nav__toggle-close {
+  background: url("../img/icon-menu.svg") no-repeat;
+}
+
+.main-nav__toggle-open {
+  background: url("../img/icon-cross.svg") no-repeat;
 }
 
 .main-nav__list {
-    @extend %list-reset;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .main-nav__item {
-    line-height: 55px;
+  line-height: 55px;
+}
+
+.main-nav__item:last-child {
+  height: 55px;
 }
 
 .main-nav__item:not(:first-child) .main-nav__link {
-    box-shadow: 0 -1px 0 0 #678fa8, inset 0 1px 0 0 rgba(255,255, 255, 0.2);
+  box-shadow: 0 -1px 0 0 #678fa8, inset 0 1px 0 0 rgba(255, 255, 255, 0.2);
 }
 
 .main-nav__link {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    background-color: #81b3d2;
-    text-transform: uppercase;
-    height: 55px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #81b3d2;
+  text-transform: uppercase;
+  height: 55px;
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-nav__link {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .main-nav__item {
+    width: 20%;
+  }
+
+  .main-nav__item:not(:first-child) .main-nav__link {
+    box-shadow: none;
+  }
+
+  .main-nav__item:nth-child(1) {
+    order: 1;
+  }
+
+  .main-nav__item:nth-child(2) {
+    order: 2;
+  }
+
+  .main-nav__item:nth-child(3) {
+    order: 4;
+  }
+
+  .main-nav__item:nth-child(4) {
+    order: 5;
+  }
+
+  .main-nav__item:nth-child(5) {
+    order: 3;
+  }
 }

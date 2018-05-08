@@ -1,3 +1,15 @@
 .gallery__list {
-    @extend %list-reset;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .gallery__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
