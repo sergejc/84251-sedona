@@ -35,6 +35,7 @@
 
 .main-nav__item {
   line-height: 55px;
+  background-color: #ffffff;
 }
 
 .no-js .main-nav__item:not(:last-child) {
@@ -64,6 +65,13 @@
   background-color: #81b3d2;
   text-transform: uppercase;
   height: 55px;
+}
+
+.main-nav__logo-link {
+  display: block;
+  margin: 0 auto;
+  width: 102px;
+  height: 84px;
 }
 
 .main-nav__link:hover {

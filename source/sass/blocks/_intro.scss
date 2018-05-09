@@ -12,7 +12,8 @@
 }
 
 .page-index .intro__baner {
-  margin-top: 85px;
+  margin-top: 90px;
+  width: 282px;
 }
 
 .page-photo .intro__baner,
@@ -29,11 +30,24 @@
 
 @media (min-width: $tablet-width) {
   .page-index .intro {
-    height: 517px;
-    background-image: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@1x.jpg");
+    height: 518px;
+    background-image: url("../img/bg-intro-triangle-tablet.svg"), url("../img/bg-back-tablet@1x.jpg");
   }
 
   .page-photo .intro .page-form .intro {
     height: 291px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-index .intro__baner {
+    margin-top: 77px;
+    width: 460px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-index .intro {
+    background-image: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-desktop@1x.jpg");
   }
 }

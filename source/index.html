@@ -11,6 +11,7 @@
 </head>
 
 <body class="page-index no-js">
+  <div class="container">
     <header class="page-header">
       <nav class="main-nav">
         <button class="main-nav__toggle main-nav__toggle-open" type="button"></button>
@@ -28,9 +29,14 @@
             <a class="main-nav__link" href="https://htmlacademy.ru/">HTML academy</a>
           </li>
           <li class="main-nav__item">
-            <a href="#" class="page-header__logo-link">
-              <img src="img/logo-sedona-mobile.svg" alt="СЕДОНА — небольшой городок в АРИЗОНЕ" class="page-header__logo-image" height="83"
-                width="103">
+            <a href="#" class="main-nav__logo-link">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="img/logo-sedona-mobile.svg">
+                    <source media="(max-width: 1200px)" srcset="img/logo-sedona-tablet.svg">
+                    <source media="(min-width: 1281px)" srcset="img/logo-sedona-desktop.svg">
+                    <img src="img/logo-sedona-mobile.svg" alt="СЕДОНА — небольшой городок в АРИЗОНЕ" class="main-nav__logo-image" height="83"
+                      width="103">
+                  </picture>
             </a>
           </li>
         </ul>
@@ -53,7 +59,7 @@
               <p class="info__text info__title--number">- №1 -</p>
               <p class="info__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
             </div>
-            <img class="info__image"  src="img/main-city-mobile@1x.jpg" alt="Вид на город" width="520" height="260">
+            <img class="info__image" src="img/main-city-mobile@1x.jpg" alt="Вид на город" width="520" height="260">
           </li>
           <li class="info__item">
             <ul class="features">
@@ -70,7 +76,7 @@
                 <p class="features__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
               </li>
             </ul>
-            </li>
+          </li>
           <li class="info__item info__item--long">
             <div class="info__text-wrapper">
               <h3 class="info__title">Там есть мост дьявола</h3>
@@ -97,39 +103,40 @@
             </div>
           </li>
         </ul>
-        </section>
-        <section class="contact-us">
-          <h2 class="contact-us__title">Заинтересовались?</h2>
-          <p class="contact-us__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-          <a class="contact-us__link button" href="#">Найти гостиницу</a>
-        </section>
-        <section class="map">
-          <img class="map__image" src="img/bg-map-mobile@1x.jpg" alt="Карта аризоны" width="320" height="350">
-        </section>
-        </main>
-        <footer class="page-footer">
-          <div class="page-footer__hash-tag hash-tag">
-            <a class="hash-tag__link" href="https://twitter.com/hashtag/hashtag">#visitsedona</a>
-          </div>
-          <div class="page-footer__social social">
-            <ul class="social__list">
-              <li class="social__item">
-                <a class="social__link social__link--twitter" href="#">Twitter</a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--facebook" href="#">Facebook</a>
-              </li>
-              <li class="social__item">
-                <a class="social__link social__link--youtube" href="#">Youtube</a>
-              </li>
-            </ul>
-          </div>
-            <div class="page-footer__copyright copyright">
-              <b class="copyright__text">Разработано</b>
-              <a href="https://up.htmlacademy.ru/adaptive/14"></a>
-            </div>
-        </footer>
-        <script src="js/app.js"></script>
-        </body>
+      </section>
+      <section class="contact-us">
+        <h2 class="contact-us__title">Заинтересовались?</h2>
+        <p class="contact-us__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <a class="contact-us__link button" href="#">Найти гостиницу</a>
+      </section>
+      <section class="map">
+        <img class="map__image" src="img/bg-map-mobile@1x.jpg" alt="Карта аризоны" width="320" height="350">
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__hash-tag hash-tag">
+        <a class="hash-tag__link" href="https://twitter.com/hashtag/hashtag">#visitsedona</a>
+      </div>
+      <div class="page-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">Twitter</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">Facebook</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">Youtube</a>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <b class="copyright__text">Разработано</b>
+        <a href="https://up.htmlacademy.ru/adaptive/14"></a>
+      </div>
+    </footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
 
-        </html>
+</html>
