@@ -54,10 +54,14 @@
           <li class="info__item info__item--long">
             <div class="info__text-wrapper">
               <h3 class="info__title">Настоящий городок</h3>
-              <p class="info__text info__title--number">- №1 -</p>
+              <p class="info__number">- №1 -</p>
               <p class="info__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
             </div>
-            <img class="info__image" src="img/main-city-mobile@1x.jpg" alt="Вид на город" width="520" height="260">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="img/main-city-desktop@1x.jpg">
+                <source media="(min-width: 767px)" srcset="img/main-city-tablet@1x.jpg">
+                <img class="info__image" src="img/main-city-mobile@1x.jpg" alt="Вид на город" width="520" height="260">
+              </picture>
           </li>
           <li class="info__item">
             <ul class="features">
