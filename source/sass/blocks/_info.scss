@@ -13,11 +13,15 @@
   overflow: hidden;
 }
 
-.info__item:first-child {
-  background-image: url("../img/bg-triangle.svg");
+.info__item:first-child:before {
+  background-image: url(../img/bg-triangle.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 103%;
+  content: "";
+  width: 100%;
+  display: block;
+  height: 11.5vw;
 }
 
 .info__image {
@@ -121,6 +125,10 @@
 
   .info__item-group:not(:last-child) {
     border-bottom: none;
+  }
+
+  .info__item:first-child:before {
+    display: none;
   }
 }
 
