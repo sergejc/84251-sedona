@@ -31,7 +31,6 @@
 
 .info__item--short {
   background-color: #eeeeee;
-  padding: 35px 0 35px 0;
 }
 
 .info__title {
@@ -63,6 +62,19 @@
 
 .info__text-wrapper {
   padding: 60px 75px 45px 75px;
+}
+
+.info__item-group {
+  padding: 35px 0;
+  margin: 0 20px;
+}
+
+.info__item-group:not(:last-child) {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.info__title--number {
+  margin-bottom: 25px;
 }
 
 @media (min-width: $tablet-width) {
@@ -106,8 +118,11 @@
   .info__image {
     width: 100%;
   }
-}
 
+  .info__item-group:not(:last-child) {
+    border-bottom: none;
+  }
+}
 
 @media (min-width: $desktop-width) {
   .info__text-wrapper {
