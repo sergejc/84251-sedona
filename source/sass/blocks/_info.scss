@@ -13,8 +13,16 @@
   overflow: hidden;
 }
 
+.info__item:first-child {
+  background-image: url("../img/bg-triangle.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 103%;
+}
+
 .info__image {
-  width: 100%;
+  width: 320px;
+  height: 260px;
 }
 
 .info__item--long {
@@ -62,10 +70,13 @@
     padding: 0;
   }
 
+  .info__item:first-child {
+    background-image: none;
+  }
+
   .info__item--long {
     display: flex;
     flex-direction: row;
-    height: 256px;
   }
 
   .info__item:nth-child(3) .info__text-wrapper {
@@ -73,7 +84,7 @@
   }
 
   .info__text-wrapper {
-    padding: 45px 20px 45px 20px;
+    padding: 50px 20px 45px 20px;
     width: 33.3333%;
     min-width: 220px;
   }
@@ -90,5 +101,18 @@
 
   .info__item-group {
     width: 33.3333%;
+  }
+
+  .info__image {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .info__text-wrapper {
+    padding: 60px 20px 45px 20px;
+    width: 33.3333%;
+    min-width: 220px;
   }
 }
