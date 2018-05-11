@@ -13,8 +13,8 @@
   overflow: hidden;
 }
 
-.info__item:first-child:before {
-  background-image: url(../img/bg-triangle.svg);
+.info__item:first-child::before {
+  background-image: url("../img/bg-triangle.svg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 103%;
@@ -127,7 +127,7 @@
     border-bottom: none;
   }
 
-  .info__item:first-child:before {
+  .info__item:first-child::before {
     display: none;
   }
 }

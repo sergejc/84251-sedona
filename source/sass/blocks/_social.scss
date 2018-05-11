@@ -4,16 +4,27 @@
   margin: 0;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
 }
 
 .social__link {
-  text-indent: -9999px;
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
+}
+
+.social__link:hover {
+  background-color: #5496bd;
+}
+
+.social__icon {
+  fill: #ffffff;
+}
+
+.social__link:active .social__icon {
+  fill: rgba(255, 255, 255, 0.3);
 }
 
 .social__item:not(:last-of-type) .social__link {

@@ -73,7 +73,13 @@
 }
 
 .main-nav__link:hover {
-  color: #81b3d2;
+  background-color: #669ec0;
+  color: #ffffff;
+}
+
+.main-nav__link:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .main-nav__link--active {
@@ -102,6 +108,7 @@
 
   .main-nav__link:hover {
     color: #81b3d2;
+    background-color: #ffffff;
   }
 
   .main-nav__link:active {

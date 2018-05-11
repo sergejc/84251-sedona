@@ -1,8 +1,22 @@
 .copyright {
-  vertical-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .copyright__text {
   font-size: 14px;
   line-height: 26px;
+  margin-right: 10px;
+}
+
+.copyright__icon {
+  fill: #000000;
+}
+
+.copyright__icon:hover {
+  fill: #5496bd;
+}
+
+.copyright__icon:active {
+  fill: #b2b2b2;
 }
