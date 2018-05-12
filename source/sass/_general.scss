@@ -47,6 +47,10 @@ img {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.page-main {
+  background: #ffffff;
+}
+
 @media (min-width: $desktop-width) {
   .container {
     box-shadow: 0 -5px 15px 0 white, 0 5px 15px 0 white, 5px 0 15px 0 rgba(0, 1, 1, 0.2), -5px 0 15px 0 rgba(0, 1, 1, 0.2);
