@@ -1,14 +1,19 @@
 .intro {
   text-align: center;
-}
-
-.page-index .intro {
   background-color: #e3f0f8;
   background-image: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-position: 50% bottom;
-  background-size: 103%, cover;
+  background-size: 104%, cover;
+}
+
+.page-index .intro {
   height: 389px;
+}
+
+.page-photo .intro,
+.page-form .intro {
+  height: 159px;
 }
 
 .page-index .intro__baner {
@@ -21,20 +26,22 @@
   margin-top: 50px;
 }
 
-.page-photo .intro,
-.page-form .intro {
-  background: url("../img/bg-back-mobile@1x.jpg") no-repeat center center;
-  background-color: #e3f0f8;
-  height: 159px;
+.photo__icon {
+  margin-right: 15px;
+  fill: #b2b2b2;
 }
 
 @media (min-width: $tablet-width) {
-  .page-index .intro {
-    height: 518px;
+  .intro {
     background-image: url("../img/bg-intro-triangle-tablet.svg"), url("../img/bg-back-tablet@1x.jpg");
   }
 
-  .page-photo .intro .page-form .intro {
+  .page-index .intro {
+    height: 518px;
+  }
+
+  .page-photo .intro,
+  .page-form .intro {
     height: 291px;
   }
 
@@ -45,7 +52,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-index .intro {
+  .intro {
     background-image: url("../img/bg-intro-triangle-desktop.svg"), url("../img/bg-back-desktop@1x.jpg");
   }
 }
