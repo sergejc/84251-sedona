@@ -1,0 +1,23 @@
+.popup {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.popup__strong {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+.popup__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
