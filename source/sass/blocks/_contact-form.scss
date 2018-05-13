@@ -120,7 +120,7 @@
   margin-bottom: 20px;
 }
 
-.contact-form__sightseeing {
+.contact-form__sightseeing-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -201,10 +201,11 @@
 }
 
 .contact-form__submit-group {
-  padding: 20px 20px;;
+  padding: 20px 20px;
   display: flex;
   flex-direction: column;
 }
+
 .contact-form__submit {
   border: 0;
   font-size: 21px;
@@ -230,7 +231,7 @@
     width: 50%;
   }
 
-  .contact-form__name {
+  .contat-form__name {
     order: 2;
     width: 50%;
   }
@@ -245,6 +246,10 @@
     width: 100%;
   }
 
+  .contact-form__label--checkbox {
+    width: 250px;
+  }
+
   .text-review {
     order: 5;
     width: 100%;
@@ -252,7 +257,7 @@
   }
 
   .contact-form__sightseeing-wrapper {
-    width: 648px;
+    width: 520px;
     margin: 0 auto;
     flex-direction: row;
     flex-wrap: wrap;
@@ -275,5 +280,13 @@
 
   .contact-form__submit-desc {
     display: block;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contact-form__sightseeing-wrapper {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
