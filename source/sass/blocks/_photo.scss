@@ -22,6 +22,7 @@
 .photo__author {
   color: #333333;
   font-style: normal;
+  text-transform: initial;
 }
 
 .photo__image {
@@ -59,7 +60,7 @@
     min-height: 80px;
     position: absolute;
     width: 100%;
-    bottom: 34px;
+    bottom: 0;
   }
 
   .photo__text-group--active {
@@ -70,9 +71,9 @@
 @media (min-width: $desktop-width) {
   .photo__text-group {
     background-color: rgba(0, 0, 0, 0.6);
-    position: relative;
+    position: absolute;
     color: #ffffff;
-    bottom: 88px;
+    bottom: 0;
   }
 
   .photo__author,
