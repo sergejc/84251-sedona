@@ -24,6 +24,10 @@
     padding: 50px 15% 55px 15%;
   }
 
+  .page-form .page-main {
+    padding: 0 40px;
+  }
+
   .page__header {
     font-size: 21px;
     line-height: 26px;
@@ -33,5 +37,9 @@
 @media (min-width: $desktop-width) {
   .page-info {
     padding: 50px 27% 55px 27%;
+  }
+
+  .page-form .page-main {
+    padding: 0 100px;
   }
 }

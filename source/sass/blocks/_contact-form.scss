@@ -76,6 +76,7 @@
   font-size: 14px;
   line-height: 26px;
   margin-right: 10px;
+  color: #333333;
 }
 
 .contat-form__item {
@@ -353,6 +354,9 @@
 
   .contact-form__submit-desc {
     display: block;
+    font-size: 14px;
+    line-height: 26px;
+    color: #333333;
   }
 
   .contact-form__fieldset--line::before,
@@ -374,6 +378,10 @@
   .contact-form__title {
     padding: 0 60px;
   }
+
+  .contact-form__impression .contact-form__fieldset {
+    border-right: 1px solid #dbdbdb;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -381,12 +389,6 @@
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .contact-form__fieldset--line::before,
-  .contact-form__sightseeing--line::before,
-  .text-review::before {
-    background-color: transparent;
   }
 
   .contact-form__group--phone {
@@ -401,6 +403,14 @@
   }
 
   .contact-form__group:not(:last-child) {
-    margin-bottom: 0;
+    margin-bottom: 20px;
+  }
+
+  .contact-form__submit {
+    width: 480px;
+  }
+
+  .contact-form__label--desk {
+    display: none;
   }
 }
