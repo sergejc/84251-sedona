@@ -200,6 +200,21 @@
   box-shadow: inset 2px 2px 0 #e5e5e5, inset -2px -2px 0 #e5e5e5;
 }
 
+.contact-form__submit-group {
+  padding: 20px 20px;;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form__submit {
+  border: 0;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.contact-form__submit-desc {
+  display: none;
+}
+
 @media (min-width: $tablet-width) {
   .contact-form__container {
     flex-direction: row;
@@ -243,7 +258,22 @@
     flex-wrap: wrap;
   }
 
-  .contact-form__sightseeing-group {
-    width: 50px;
+  .contact-form__submit-group {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contact-form__submit {
+    width: 324px;
+  }
+
+  .contact-form__submit-star {
+    vertical-align: top;
+  }
+
+  .contact-form__submit-desc {
+    display: block;
   }
 }
