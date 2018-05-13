@@ -44,6 +44,9 @@
   padding: 19px 22px;
   background-color: #f2f2f2;
   outline: none;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
 }
 
 .contact-form__input:hover {
@@ -53,7 +56,7 @@
 .contact-form__input:active,
 .contact-form__input:focus {
   background-color: #ffffff;
-  box-shadow: inset 2px 2px 0px#e5e5e5, inset -2px -2px 0px#e5e5e5;
+  box-shadow: inset 2px 2px 0 #e5e5e5, inset -2px -2px 0 #e5e5e5;
 }
 
 @media (min-width: $tablet-width) {
