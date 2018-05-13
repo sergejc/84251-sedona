@@ -88,6 +88,20 @@
     padding: 0;
   }
 
+  .info__title {
+    width: 130px;
+    margin: 0 auto 20px auto;;
+  }
+
+  .info__text {
+    width: 170px;
+    margin: 0 auto;
+  }
+
+  .info__title--number {
+    margin-bottom: 20px;
+  }
+
   .info__item:first-child {
     background-image: none;
   }
@@ -102,7 +116,7 @@
   }
 
   .info__text-wrapper {
-    padding: 50px 20px 45px 20px;
+    padding: 50px 20px 10px 20px;
     width: 33.3333%;
     min-width: 220px;
   }
@@ -136,7 +150,7 @@
 
 @media (min-width: $desktop-width) {
   .info__text-wrapper {
-    padding: 60px 20px 45px 20px;
+    padding: 50px 20px 10px 20px;
     width: 33.3333%;
     min-width: 220px;
   }
