@@ -6,7 +6,6 @@
 .contact-us__wrapper {
   display: flex;
   flex-direction: column;
-  width: 280px;
   margin: 0 auto;
 }
 
@@ -26,7 +25,7 @@
 .contact-us__link {
   text-decoration: none;
   display: block;
-  padding: 17px 45px;
+  padding: 17px 50px;
 }
 
 @media (min-width: $tablet-width) {
