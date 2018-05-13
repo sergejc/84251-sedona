@@ -29,7 +29,18 @@
 }
 
 @media (min-width: $tablet-width) {
+  .contact-us {
+    background-color: #ffffff;
+    padding: 50px 30px 50px 30px;
+  }
+
   .contact-us__wrapper {
     width: 460px;
+  }
+
+  .contact-us__title {
+    font-size: 30px;
+    line-height: 26px;
+    margin: 0 0 37px 0;
   }
 }
