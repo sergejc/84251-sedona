@@ -388,4 +388,19 @@
   .text-review::before {
     background-color: transparent;
   }
+
+  .contact-form__group--phone {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-form__phone-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .contact-form__group:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
