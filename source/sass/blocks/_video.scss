@@ -10,14 +10,13 @@
 }
 
 .video__text {
-  margin: 0;
+  margin: 0 0 40px 0;
 }
 
 .video__player {
-  height: 110px;
   width: 280px;
   position: absolute;
-  bottom: -65px;
+  bottom: -45px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -25,7 +24,7 @@
 .video__timeline {
   height: 45px;
   position: relative;
-  width: 285px;
+  width: 100%;
   order: -1;
   margin-bottom: 10px;
 }
@@ -58,8 +57,7 @@
 .video__control {
   display: flex;
   flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.2);
-  width: 280px;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 0 20px 10px;
 }
 
@@ -87,6 +85,11 @@
 @media (min-width: $tablet-width) {
   .video {
     width: 648px;
+  }
+
+  .video__text {
+    margin: 0 auto 80px auto;
+    max-width: 450px;
   }
 
   .video__player {
