@@ -68,14 +68,14 @@
             </fieldset>
           </div>
           <div class="contat-form__item contact-form__phone">
-            <fieldset class="contact-form__fieldset">
+            <fieldset class="contact-form__fieldset contact-form__fieldset--line">
               <legend class="contact-form__title">Контактный телефон:</legend>
-              <div class="contact-form__group contact-form__group--phone">
+              <div class="contact-form__group contact-form__group--phone contact-form__icon-phone">
                 <label class="contact-form__label" for="phone">Контактный телефон*:</label>
                 <input class="contact-form__input contact-form__input--phone" type="tel" name="phone" id="phone" placeholder="Введите телефон"
                   required>
               </div>
-              <div class="contact-form__group contact-form__group--phone">
+              <div class="contact-form__group contact-form__group--phone contact-form__icon-email">
                 <label class="contact-form__label" for="email">Электронная почта*:</label>
                 <input class="contact-form__input contact-form__input--email" type="email" name="email" id="email" placeholder="Введите e-mail"
                   required>
@@ -97,28 +97,29 @@
             </fieldset>
           </div>
           <div class="contat-form__item contact-form__sightseeing">
-              <legend class="contact-form__title">посещенные достопримечательности:</legend>
-              <div class="contact-form__sightseeing-wrapper">
-                <input id="sightseeing1" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val1"
-                  checked>
-                <label for="sightseeing1" class="contact-form__label contact-form__label--checkbox">Мост Дьявола</label>
+              <fieldset class="contact-form__fieldset contact-form__fieldset--line">
+                <legend class="contact-form__title">посещенные достопримечательности:</legend>
+                <div class="contact-form__sightseeing-wrapper">
+                  <input id="sightseeing1" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val1"
+                    checked>
+                  <label for="sightseeing1" class="contact-form__label contact-form__label--checkbox">Мост Дьявола</label>
 
-                <input id="sightseeing2" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val2"
-                  checked>
-                <label for="sightseeing2" class="contact-form__label contact-form__label--checkbox">Гора-Колокол</label>
+                  <input id="sightseeing2" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val2"
+                    checked>
+                  <label for="sightseeing2" class="contact-form__label contact-form__label--checkbox">Гора-Колокол</label>
 
-                <input id="sightseeing3" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="va3"
-                  checked>
-                <label for="sightseeing3" class="contact-form__label contact-form__label--checkbox">Слайд-парк</label>
+                  <input id="sightseeing3" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="va3"
+                    checked>
+                  <label for="sightseeing3" class="contact-form__label contact-form__label--checkbox">Слайд-парк</label>
 
-                <input id="sightseeing4" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val4">
-                <label for="sightseeing4" class="contact-form__label contact-form__label--checkbox">Красные скалы</label>
-              </div>
+                  <input id="sightseeing4" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val4">
+                  <label for="sightseeing4" class="contact-form__label contact-form__label--checkbox">Красные скалы</label>
+                </div>
               </fieldset>
           </div>
-          <div class="text-review">
-            <b class="text-review__title">Опишите свои эмоции:</b>
-            <textarea name="text-review__area" class="text-review__area" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
+          <div class="contat-form__text-review">
+            <b class="contat-form__text-review-title">Опишите свои эмоции:</b>
+            <textarea name="contat-form__text-review-area" class="contat-form__text-review-area" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
           </div>
 
         </div>
