@@ -70,50 +70,51 @@
           <div class="contat-form__item contact-form__phone">
             <fieldset class="contact-form__fieldset">
               <legend class="contact-form__title">Контактный телефон*:</legend>
-              <label class="contact-form__label" for="phone">Контактный телефон*:</label>
-              <input class="contact-form__input contact-form__input--phone" type="tel" name="phone" id="phone" placeholder="Введите телефон"
-                required>
-              <label class="contact-form__label" for="email">Электронная почта*:</label>
-              <input class="contact-form__input contact-form__input--email" type="email" name="email" id="email" placeholder="Введите e-mail"
-                required>
+              <div class="contact-form__group contact-form__group--phone">
+                <label class="contact-form__label" for="phone">Контактный телефон*:</label>
+                <input class="contact-form__input contact-form__input--phone" type="tel" name="phone" id="phone" placeholder="Введите телефон"
+                  required>
+              </div>
+              <div class="contact-form__group contact-form__group--phone">
+                <label class="contact-form__label" for="email">Электронная почта*:</label>
+                <input class="contact-form__input contact-form__input--email" type="email" name="email" id="email" placeholder="Введите e-mail"
+                  required>
+              </div>
             </fieldset>
           </div>
           <div class="contat-form__item contact-form__impression">
             <fieldset class="contact-form__fieldset">
               <legend class="contact-form__title">Ваше общее впечатление:</legend>
-              <label class="contact-form__label">
-                <input class="contact-form__radio" type="radio" name="feedback" value="positive" checked>Скорее положительное
-              </label>
+              <input id ="contact-form__radio--positive" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="positive" checked>
+              <label for="contact-form__radio--positive" class="contact-form__label contact-form__label--radio">Скорее положительное</label>
 
-              <label class="contact-form__label">
-                <input class="contact-form__radio" type="radio" name="feedback" value="negative">Скорее отрицательное
-              </label>
+              <input id ="contact-form__radio--negative" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="negative">
+              <label for="contact-form__radio--negative" class="contact-form__label contact-form__label--radio">Скорее отрицательное</label>
 
-              <label class="contact-form__label">
-                <input class="contact-form__radio" type="radio" name="feedback" value="dontknow">Затрудняюсь ответить
-              </label>
+              <input id ="contact-form__radio--dontknow" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="dontknow">
+              <label for="contact-form__radio--dontknow" class="contact-form__label contact-form__label--radio">Затрудняюсь ответить</label>
+
             </fieldset>
           </div>
           <div class="contat-form__item contact-form__sightseeing">
-            <fieldset class="contact-form__fieldset contact-sightseeing">
-              <legend class="contact-form__title">Посещенные достопримечательности:</legend>
-              <label class="contact-form__label">
-                <input class="contact-form__checkbox" type="checkbox" name="sightseeing[]" value="devil" checked>Мост Дьявола
-              </label>
-              <label class="contact-form__label">
-                <input class="contact-form__checkbox" type="checkbox" name="sightseeing[]" value="mountain" checked>Гора-Колокол
-              </label>
-              <label class="contact-form__label">
-                <input class="contact-form__checkbox" type="checkbox" name="sightseeing[]" value="park" checked>Слайд-парк
-              </label>
-              <label class="contact-form__label">
-                <input class="contact-form__checkbox" type="checkbox" name="sightseeing[]" value="cliff">Красные скалы
-              </label>
+              <legend class="contact-form__title">посещенные достопримечательности:</legend>
+              <input id ="sightseeing1" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val1" checked>
+              <label for="sightseeing1" class="contact-form__label contact-form__label--checkbox">Мост Дьявола</label>
+
+              <input id ="sightseeing2" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val2" checked>
+              <label for="sightseeing2" class="contact-form__label contact-form__label--checkbox">Гора-Колокол</label>
+
+              <input id ="sightseeing3" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="va3" checked>
+              <label for="sightseeing3" class="contact-form__label contact-form__label--checkbox">Слайд-парк</label>
+
+              <input id ="sightseeing4" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val4">
+              <label for="sightseeing4" class="contact-form__label contact-form__label--checkbox">Красные скалы</label>
+
             </fieldset>
           </div>
           <div class="text-review">
             <b class="text-review__title">Опишите свои эмоции:</b>
-            <textarea name="text-review__area" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
+            <textarea name="text-review__area" class="text-review__area" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
           </div>
 
         </div>

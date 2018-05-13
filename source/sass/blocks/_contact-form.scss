@@ -18,6 +18,12 @@
   margin-bottom: 25px;
 }
 
+.contact-form__label--phone {
+  text-align: left;
+  margin-left: 20px;
+  background: url("../img/icon-phone.svg") no-repeat;
+}
+
 .contact-form__label {
   font-size: 14px;
   line-height: 26px;
@@ -25,7 +31,7 @@
 }
 
 .contat-form__item {
-  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
   padding: 20px;
 }
 
@@ -34,18 +40,35 @@
   align-items: center;
 }
 
+.contact-form__group--phone {
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.contact-form__phone .contact-form__label {
+  text-align: left;
+  margin-left: 20px;
+}
+
 .contact-form__group:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-form__input {
   flex-grow: 1;
   border: 0;
-  padding: 19px 22px;
+  padding: 19px 28px 19px 22px;
   background-color: #f2f2f2;
   outline: none;
   font-size: 18px;
   line-height: 26px;
+  color: #000000;
+  font-weight: 700;
+  position: relative;
+}
+
+.contact-form__input::placeholder {
   color: #000000;
 }
 
@@ -59,14 +82,136 @@
   box-shadow: inset 2px 2px 0 #e5e5e5, inset -2px -2px 0 #e5e5e5;
 }
 
+.contact-form__label--radio {
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: initial;
+  font-weight: 700;
+  padding: 19px 0 19px 75px;
+  position: relative;
+  text-align: left;
+}
+
+.contact-form__label--radio::before {
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+  position: absolute;
+  border-radius: 50%;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-form__radio:checked + .contact-form__label--radio::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  position: absolute;
+  border-radius: 50%;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-form__label--radio:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contact-form__sightseeing {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form__label--checkbox {
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: initial;
+  font-weight: 700;
+  padding: 19px 0 19px 75px;
+  position: relative;
+  text-align: left;
+}
+
+.contact-form__label--checkbox::before {
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+  position: absolute;
+  border-radius: 5px;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-form__checkbox:checked + .contact-form__label--checkbox::after {
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+  position: absolute;
+  border-radius: 5px;
+  left: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-review {
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 20px;
+}
+
+.text-review__title {
+  margin-bottom: 20px;
+}
+
+.text-review__area {
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+.text-review__area::placeholder {
+  color: #000000;
+  font-weight: 700;
+}
+
+.text-review__area:hover {
+  background-color: #e5e5e5;
+}
+
+.text-review__area:active,
+.text-review__area:focus {
+  background-color: #ffffff;
+  box-shadow: inset 2px 2px 0 #e5e5e5, inset -2px -2px 0 #e5e5e5;
+}
+
 @media (min-width: $tablet-width) {
   .contact-form__container {
     flex-direction: row;
     flex-wrap: wrap;
   }
 
+  .contat-form__item {
+    border: 0;
+  }
+
   .contact-form__impression {
-    order: 1;
+    order: -1;
     width: 50%;
   }
 
@@ -77,14 +222,28 @@
 
   .contact-form__phone {
     order: 3;
+    width: 100%;
   }
 
   .contact-form__sightseeing {
     order: 4;
-    width: 50%;
+    width: 100%;
   }
 
   .text-review {
     order: 5;
+    width: 100%;
+    border: 0;
+  }
+
+  .contact-form__sightseeing-wrapper {
+    width: 648px;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .contact-form__sightseeing-group {
+    width: 50px;
   }
 }
