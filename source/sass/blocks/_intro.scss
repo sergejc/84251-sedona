@@ -63,3 +63,21 @@
     height: 300px;
   }
 }
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .intro {
+    background-image: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-mobile@2x.jpg");
+  }
+}
+
+@media (min-width: $tablet-width) and (min-resolution: 144dpi) and (min-resolution: 1.5dppx) {
+  .intro {
+    background-image: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-tablet@2x.jpg");
+  }
+}
+
+@media (min-width: $desktop-width) and (min-resolution: 144dpi) and (min-resolution: 1.5dppx) {
+  .intro {
+    background-image: url("../img/bg-intro-triangle-mobile.svg"), url("../img/bg-back-desktop@2x.jpg");
+  }
+}

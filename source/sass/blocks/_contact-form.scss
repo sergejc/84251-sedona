@@ -178,6 +178,10 @@
   background-color: #a4a4a4;
 }
 
+.contact-form__radio:focus + .contact-form__label--radio::before {
+  background-color: #d5d5d5;
+}
+
 .contact-form__label--radio:not(:last-child) {
   margin-bottom: 20px;
 }

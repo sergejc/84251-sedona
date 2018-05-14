@@ -6,11 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>HTML Academy: Седона - index.html</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="page-form">
+<body class="page-form no-js">
   <div class="container">
     <header class="page-header">
       <nav class="main-nav">
@@ -72,12 +71,15 @@
               <legend class="contact-form__title">Контактная информация:</legend>
               <div class="contact-form__phone-wrapper">
                 <div class="contact-form__group contact-form__group--phone contact-form__icon-phone">
-                  <label class="contact-form__label" for="phone"><span class="contact-form__label--desk">Контактный</span> телефон*:</label>
-                  <input class="contact-form__input contact-form__input--phone" type="tel" name="phone" id="phone" placeholder="Введите телефон" required>
+                  <label class="contact-form__label" for="phone">
+                    <span class="contact-form__label--desk">Контактный</span> телефон*:</label>
+                  <input class="contact-form__input contact-form__input--phone" type="tel" name="phone" id="phone" placeholder="Введите телефон"
+                    required>
                 </div>
                 <div class="contact-form__group contact-form__group--phone contact-form__icon-email">
                   <label class="contact-form__label" for="email">Электронная почта*:</label>
-                  <input class="contact-form__input contact-form__input--email" type="email" name="email" id="email" placeholder="Введите e-mail" required>
+                  <input class="contact-form__input contact-form__input--email" type="email" name="email" id="email" placeholder="Введите e-mail"
+                    required>
                 </div>
               </div>
             </fieldset>
@@ -85,47 +87,50 @@
           <div class="contat-form__item contact-form__impression">
             <fieldset class="contact-form__fieldset">
               <legend class="contact-form__title">Ваше общее впечатление:</legend>
-              <input id ="contact-form__radio--positive" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="positive" checked>
+              <input id="contact-form__radio--positive" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="positive"
+                checked>
               <label for="contact-form__radio--positive" class="contact-form__label contact-form__label--radio">Скорее положительное</label>
 
-              <input id ="contact-form__radio--negative" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="negative">
+              <input id="contact-form__radio--negative" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="negative">
               <label for="contact-form__radio--negative" class="contact-form__label contact-form__label--radio">Скорее отрицательное</label>
 
-              <input id ="contact-form__radio--dontknow" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="dontknow">
+              <input id="contact-form__radio--dontknow" class="contact-form__radio visually-hidden" type="radio" name="feedback" value="dontknow">
               <label for="contact-form__radio--dontknow" class="contact-form__label contact-form__label--radio">Затрудняюсь ответить</label>
 
             </fieldset>
           </div>
           <div class="contat-form__item contact-form__sightseeing">
-              <fieldset class="contact-form__fieldset contact-form__fieldset--line">
-                <legend class="contact-form__title">посещенные достопримечательности:</legend>
-                <div class="contact-form__sightseeing-wrapper">
-                  <input id="sightseeing1" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val1"
-                    checked>
-                  <label for="sightseeing1" class="contact-form__label contact-form__label--checkbox">Мост Дьявола</label>
+            <fieldset class="contact-form__fieldset contact-form__fieldset--line">
+              <legend class="contact-form__title">посещенные достопримечательности:</legend>
+              <div class="contact-form__sightseeing-wrapper">
+                <input id="sightseeing1" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val1"
+                  checked>
+                <label for="sightseeing1" class="contact-form__label contact-form__label--checkbox">Мост Дьявола</label>
 
-                  <input id="sightseeing2" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val2"
-                    checked>
-                  <label for="sightseeing2" class="contact-form__label contact-form__label--checkbox">Гора-Колокол</label>
+                <input id="sightseeing2" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val2"
+                  checked>
+                <label for="sightseeing2" class="contact-form__label contact-form__label--checkbox">Гора-Колокол</label>
 
-                  <input id="sightseeing3" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="va3"
-                    checked>
-                  <label for="sightseeing3" class="contact-form__label contact-form__label--checkbox">Слайд-парк</label>
+                <input id="sightseeing3" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="va3"
+                  checked>
+                <label for="sightseeing3" class="contact-form__label contact-form__label--checkbox">Слайд-парк</label>
 
-                  <input id="sightseeing4" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val4">
-                  <label for="sightseeing4" class="contact-form__label contact-form__label--checkbox">Красные скалы</label>
-                </div>
-              </fieldset>
+                <input id="sightseeing4" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val4">
+                <label for="sightseeing4" class="contact-form__label contact-form__label--checkbox">Красные скалы</label>
+              </div>
+            </fieldset>
           </div>
           <div class="contat-form__text-review">
             <b class="contat-form__text-review-title">Опишите свои эмоции:</b>
-            <textarea name="contat-form__text-review-area" class="contat-form__text-review-area" placeholder="Опишите подробно все свои восторги" cols="30" rows="10"></textarea>
+            <textarea name="contat-form__text-review-area" class="contat-form__text-review-area" placeholder="Опишите подробно все свои восторги"
+              cols="30" rows="10"></textarea>
           </div>
 
         </div>
         <div class="contact-form__submit-group">
           <button class="button contact-form__submit" type="submit">Отправить отзыв</button>
-          <div class="contact-form__submit-desc"><span class="contact-form__submit-star">*</span>— обязательные поля</div>
+          <div class="contact-form__submit-desc">
+            <span class="contact-form__submit-star">*</span>— обязательные поля</div>
         </div>
       </form>
     </main>
@@ -137,10 +142,8 @@
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--twitter" href="https://twitter.com">
-              <svg class="social__icon" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                y="0px" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663" enable-background="new 0 0 17.5 14.663"
-                xml:space="preserve">
-                <g id="W6EeEF_1_">
+              <svg class="social__icon" width="17.5px" height="14.663px" viewBox="0 0 17.5 14.663">
+                <g>
                   <g>
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M11.283,0.153c1.736-0.484,3.074,0.264,3.685,1.15 c0.694-0.225,1.372-0.47,2.072-0.69c-0.004,0.841-0.538,1.478-0.883,1.728C16.861,2.506,17.5,1.86,17.5,1.86 c-0.175,0.977-1.035,1.746-1.611,1.977C15.65,10.429,12.617,14.793,5.507,14.66c-0.538,0,0.077,0-0.46,0 c-0.422,0-4.29-0.45-5.047-1.843c2.341,0.192,4.011-0.412,4.835-1.15c-0.989-0.293-2.761-0.464-3.07-2.881 c0.362,0.105,0.583,0.223,1.228,0.117C1.757,8.067,0.385,7.366,0.461,5.218c0.294,0.319,1.1,0.523,1.381,0.461 c-0.725-0.235-2.03-3.281-0.921-4.836C2.794,2.655,4.769,4.364,8.29,4.528C8.506,2.288,9.461,0.788,11.283,0.153z"
                     />
@@ -151,9 +154,7 @@
           </li>
           <li class="social__item">
             <a class="social__link social__link--facebook" href="https://facebook.com">
-              <svg class="social__icon" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                y="0px" width="8.672px" height="18.944px" viewBox="0 0 8.672 18.944" enable-background="new 0 0 8.672 18.944"
-                xml:space="preserve">
+              <svg class="social__icon" width="8.672px" height="18.944px" viewBox="0 0 8.672 18.944">
                 <path d="M6.275,3.356c0.799,0,1.599,0,2.398,0c0-1.119,0-2.237,0-3.356c-0.959,0-1.92,0-2.878,0C2.656,0.181,1.54,2.387,1.948,6.114 H0v3.518h1.959c0,3.104,0,6.208,0,9.312c1.279,0,2.559,0,3.837,0c0-3.104,0-6.208,0-9.312h2.857V6.114H5.787 C5.765,5.069,5.75,3.709,6.275,3.356z"
                 />
               </svg>
@@ -161,9 +162,7 @@
           </li>
           <li class="social__item">
             <a class="social__link social__link--youtube" href="https://youtube.com">
-              <svg class="social__icon" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px" y="0px" width="19.979px" height="14.015px" viewBox="0 0 19.979 14.015" enable-background="new 0 0 19.979 14.015"
-                xml:space="preserve">
+              <svg class="social__icon" width="19.979px" height="14.015px" viewBox="0 0 19.979 14.015">
                 <path d="M17.145,0H2.835C1.275,0,0,1.275,0,2.835v8.345c0,1.56,1.275,2.835,2.835,2.835h14.31c1.56,0,2.835-1.275,2.835-2.835V2.835 C19.979,1.275,18.704,0,17.145,0z M7.036,10.392V3.623l6.769,3.384L7.036,10.392z"
                 />
               </svg>
@@ -174,7 +173,7 @@
       <div class="page-footer__copyright copyright">
         <b class="copyright__text">Разработано</b>
         <a href="https://up.htmlacademy.ru/adaptive/14">
-          <svg class="copyright__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="28" hight="36">
+          <svg class="copyright__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="28" height="36">
             <path d="M30.2 5h-.2l-19.7 2.1v36.2l19.7 11.7 19.7-11.7v-36.2l-19.5-2.1zm17 36.8l-17.2 10.2-17.2-10.2v-14.8l17.1 10.2v1.8l-11.7-7v1.8l11.8 7.1v1.9l-11.8-7v1.8l11.8 7 11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8l-17.3-10.2-17.1 10.2v-13.6l17.2-1.8 17.2 1.8v13.6z"
             />
           </svg>

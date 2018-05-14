@@ -78,6 +78,11 @@
   fill: #b8b8b8;
 }
 
+.video__button {
+  border: 0;
+  background-color: transparent;
+}
+
 @media (min-width: $tablet-width) {
   .video {
     width: 648px;
