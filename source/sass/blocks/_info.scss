@@ -90,7 +90,9 @@
 
   .info__title {
     width: 130px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 10px auto;
+    font-size: 21px;
+    line-height: 26px;
   }
 
   .info__text {
@@ -116,7 +118,7 @@
   }
 
   .info__text-wrapper {
-    padding: 50px 20px 10px 20px;
+    padding: 40px 20px 10px 20px;
     width: 33.3333%;
     min-width: 220px;
   }
@@ -133,6 +135,7 @@
 
   .info__item-group {
     width: 33.3333%;
+    padding: 45px 0;
   }
 
   .info__image {
