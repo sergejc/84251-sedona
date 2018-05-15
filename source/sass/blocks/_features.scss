@@ -37,6 +37,8 @@
   width: 37px;
   height: 37px;
   margin-right: 10px;
+  position: relative;
+  top: -10px;
 }
 
 @media (min-width: $tablet-width) {
