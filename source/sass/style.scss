@@ -4,7 +4,7 @@
 @import "variables";
 @import "general";
 @import "fonts";
-
+@import "no-js";
 
 /**                        **\
 *        Main blocks         *
@@ -16,6 +16,8 @@
 *        Blocks              *
 \**                        **/
 @import "blocks/main-nav";
+@import "blocks/page";
+@import "blocks/page-main";
 @import "blocks/page-info";
 @import "blocks/intro";
 @import "blocks/info";

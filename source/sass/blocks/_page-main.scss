@@ -1,0 +1,15 @@
+.page-main {
+  background: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main--form {
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main--form {
+    padding: 0 70px;
+  }
+}

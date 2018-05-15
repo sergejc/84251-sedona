@@ -23,7 +23,7 @@
   display: none;
 }
 
-.main-nav__toggle-open {
+.main-nav__toggle--open {
   background: url("../img/icon-menu.svg") no-repeat;
 }
 
@@ -36,10 +36,6 @@
 .main-nav__item {
   line-height: 55px;
   background-color: #ffffff;
-}
-
-.no-js .main-nav__item:not(:last-child) {
-  display: block;
 }
 
 .main-nav__item:not(:last-child) {

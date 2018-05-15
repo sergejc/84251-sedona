@@ -3,7 +3,7 @@
   background-color: #ffffff;
 }
 
-.page__header {
+.page-info__header {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -11,7 +11,7 @@
   margin: 0 0 25px 0;
 }
 
-.page__text {
+.page-info__text {
   margin: 0 auto;
   font-size: 14px;
   line-height: 26px;
@@ -24,11 +24,7 @@
     padding: 50px 15% 55px 15%;
   }
 
-  .page-form .page-main {
-    padding: 0 40px;
-  }
-
-  .page__header {
+  .page-info__header {
     font-size: 21px;
     line-height: 26px;
     margin: 0 0 30px 0;
@@ -37,10 +33,6 @@
 
 @media (min-width: $desktop-width) {
   .page-info {
-    padding: 50px 27% 55px 27%;
-  }
-
-  .page-form .page-main {
-    padding: 0 70px;
+    padding: 50px 27% 45px 27%;
   }
 }
