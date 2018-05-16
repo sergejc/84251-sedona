@@ -30,15 +30,21 @@
 }
 
 @media (min-width: $tablet-width) {
-  .page-info {
-    padding: 75px 15% 70px 15%;
-  }
-
   .page-info__header {
-    font-size: 30px;
+    font-size: 21px;
     line-height: 26px;
     font-weight: 700;
+  }
+
+  .page-info--index {
+    padding: 50px 30px 17px 30px;
     margin: 0 0 30px 0;
+  }
+
+  .page-info__header--index {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
 
   .page-info__text--photo {
@@ -47,8 +53,21 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-info {
-    padding: 115px 27% 45px 27%;
+  .page-info__header {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+  }
+
+  .page-info--index {
+    padding: 50px 27% 19px 27%;
+  }
+
+  .page-info__header--index {
+    font-size: 21px;
+    line-height: 26px;
+    width: initial;
   }
 
   .page-info--photo {

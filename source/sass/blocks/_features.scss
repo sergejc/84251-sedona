@@ -45,7 +45,7 @@
   .features {
     display: flex;
     flex-direction: row;
-    padding: 50px 0 60px 0;
+    padding: 65px 0 60px 0;
   }
 
   .features__item {
@@ -64,6 +64,7 @@
   .features__header {
     font-size: 21px;
     line-height: 26px;
+    margin: 0 0 20px 0;
   }
 
   .features__text {
@@ -73,12 +74,16 @@
   .features__icon {
     width: 75px;
     height: 72px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .features {
-    padding: 60px 0 80px 0;
+    padding: 65px 0 82px 0;
+  }
+
+  .features__text {
+    width: 290px;
   }
 }

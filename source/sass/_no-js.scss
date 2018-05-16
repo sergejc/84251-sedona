@@ -1,3 +1,7 @@
 .no-js .main-nav__item:not(:last-child) {
   display: block;
 }
+
+.no-js .main-nav__toggle {
+  display: none;
+}

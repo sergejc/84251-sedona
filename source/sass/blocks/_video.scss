@@ -1,6 +1,5 @@
 .video {
   margin: 0 auto;
-  width: 320px;
   padding: 25px 0 0 0;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .video__player {
-  width: 320px;
+  max: 320px;
   margin: 0 auto;
   position: relative;
 }

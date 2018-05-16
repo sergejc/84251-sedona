@@ -33,7 +33,11 @@
 @media (min-width: $tablet-width) {
   .contact-us {
     background-color: #ffffff;
-    padding: 50px 30px 50px 30px;
+    padding: 55px 30px 65px 30px;
+  }
+
+  .contact-us__text {
+    margin-bottom: 40px;
   }
 
   .contact-us__wrapper {
