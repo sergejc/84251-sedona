@@ -14,11 +14,11 @@
 }
 
 .info__item:first-child::before {
+  content: "";
   background-image: url("../img/bg-triangle.svg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: 103%;
-  content: "";
   width: 100%;
   display: block;
   height: 11.5vw;
@@ -48,7 +48,7 @@
   font-size: 14px;
   line-height: 21px;
   padding: 0;
-  margin: 0 0 18px 0;
+  margin: 0 0 14px 0;
   color: #ffffff;
 }
 
@@ -58,6 +58,8 @@
   padding: 0;
   margin: 0;
   color: #333333;
+  width: 275px;
+  margin: 0 auto;
 }
 
 .info__item--long .info__title,
@@ -66,12 +68,11 @@
 }
 
 .info__text-wrapper {
-  padding: 40px 10px 40px 10px;
+  padding: 44px 10px 40px 10px;
 }
 
 .info__item-group {
-  padding: 25px 0;
-  margin: 0 25px;
+  padding: 26px 0;
 }
 
 .info__item-group:not(:last-child) {
@@ -79,8 +80,16 @@
 }
 
 .info__title--number {
-  margin-bottom: 17px;
+  margin-bottom: 15px;
   color: #333333;
+}
+
+.info__text-wrapper--two {
+  padding: 38px 10px 40px 10px;
+}
+
+.info__text--two {
+  width: 250px;
 }
 
 @media (min-width: $tablet-width) {
@@ -134,7 +143,7 @@
 
   .info__item-group {
     width: 33.3333%;
-    padding: 45px 0;
+    padding: 42px 0 48px 0;
   }
 
   .info__image {
@@ -150,7 +159,7 @@
   }
 
   .info__text-wrapper--one {
-    padding: 48px 50px 10px 30px;
+    padding: 48px 40px 10px 30px;
   }
 
   .info__text-wrapper--two {
@@ -159,6 +168,10 @@
 
   .info__title--two {
     width: 150px;
+  }
+
+  .info__number {
+    margin: 0 0 20px 0;
   }
 }
 

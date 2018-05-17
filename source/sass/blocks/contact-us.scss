@@ -1,6 +1,6 @@
 .contact-us {
   background-color: #ffffff;
-  padding: 30px 15px 50px 15px;
+  padding: 30px 0 50px 0;
 }
 
 .contact-us__wrapper {
@@ -19,7 +19,8 @@
   font-size: 14px;
   line-height: 24px;
   color: #333333;
-  margin: 0 0 35px 0;
+  width: 270px;
+  margin: 0 auto 32px auto
 }
 
 .contact-us__link {
@@ -28,16 +29,19 @@
   padding: 17px 40px;
   font-size: 21px;
   line-height: 26px;
+  margin: 0 auto;
+  width: 280px;
 }
 
 @media (min-width: $tablet-width) {
   .contact-us {
     background-color: #ffffff;
-    padding: 55px 30px 65px 30px;
+    padding: 53px 30px 65px 30px;
   }
 
   .contact-us__text {
     margin-bottom: 40px;
+    width: 400px;
   }
 
   .contact-us__wrapper {
@@ -47,6 +51,10 @@
   .contact-us__title {
     font-size: 30px;
     line-height: 26px;
-    margin: 0 0 37px 0;
+    margin: 0 0 30px 0;
+  }
+
+  .contact-us__link {
+    width: 100%;
   }
 }
