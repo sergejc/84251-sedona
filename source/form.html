@@ -53,18 +53,22 @@
             <fieldset class="contact-form__fieldset">
               <legend class="contact-form__title">Представьтесь:</legend>
               <div class="contact-form__group">
-                <label class="contact-form__label" for="name">Имя*:</label>
                 <div class="contact-form__inner">
+                  <label class="contact-form__label" for="name">Имя*:</label>
                   <input class="contact-form__input" type="text" name="name" id="name" placeholder="Петр" required>
                 </div>
               </div>
               <div class="contact-form__group">
-                <label class="contact-form__label" for="surename">Фамилия*:</label>
-                <input class="contact-form__input" type="text" name="surename" id="surename" placeholder="Иванов" required>
+                <div class="contact-form__inner">
+                  <label class="contact-form__label" for="surename">Фамилия*:</label>
+                  <input class="contact-form__input" type="text" name="surename" id="surename" placeholder="Иванов" required>
+                </div>
               </div>
               <div class="contact-form__group">
-                <label class="contact-form__label" for="middlename">Отчество:</label>
-                <input class="contact-form__input" type="text" name="middlename" id="middlename" placeholder="Александрович">
+                <div class="contact-form__inner">
+                  <label class="contact-form__label" for="middlename">Отчество:</label>
+                  <input class="contact-form__input" type="text" name="middlename" id="middlename" placeholder="Александрович">
+                </div>
               </div>
             </fieldset>
           </div>
