@@ -70,10 +70,14 @@
 @media (min-width: $desktop-width) {
   .photo__text-group {
     background-color: rgba(0, 0, 0, 0.6);
-    padding: 16px 25px 16px 20px;
+    padding: 16px 25px 16px 15px;
     color: #ffffff;
     bottom: 0;
     position: absolute;
+  }
+
+  .photo__like {
+    padding-left: 6px;
   }
 
   .photo__author,

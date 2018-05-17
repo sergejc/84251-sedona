@@ -58,3 +58,9 @@
     width: 100%;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contact-us__text {
+    margin-bottom: 46px;
+  }
+}

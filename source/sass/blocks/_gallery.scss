@@ -10,10 +10,21 @@
 }
 
 .gallery__item {
-  padding: 23px 0 21px 0;
+  width: 100%;
+  position: relative;
+}
+
+.gallery__item:first-child {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
-  position: relative;
+}
+
+.gallery__item:not(:first-child) {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.gallery__wrapper {
+  padding: 23px 20px 20px 20px;
 }
 
 @media (min-width: $tablet-width) {
@@ -26,6 +37,10 @@
 
   .gallery__item {
     border: none;
+    padding: 0;
+  }
+
+  .gallery__wrapper {
     padding: 0;
   }
 

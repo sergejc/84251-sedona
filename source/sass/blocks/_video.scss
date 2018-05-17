@@ -1,6 +1,6 @@
 .video {
   margin: 0 auto;
-  padding: 25px 0 0 0;
+  padding: 33px 0 0 0;
 }
 
 .video__control {
@@ -28,7 +28,6 @@
 }
 
 .video__player {
-  max: 320px;
   margin: 0 auto;
   position: relative;
 }
@@ -174,5 +173,9 @@
 
   .video__timeline::after {
     left: 26%;
+  }
+
+  .video__text {
+    margin: 0 auto 72px auto;
   }
 }
