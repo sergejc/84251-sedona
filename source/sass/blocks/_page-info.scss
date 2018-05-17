@@ -3,6 +3,10 @@
   background-color: #ffffff;
 }
 
+.page-info--form {
+  padding: 40px 0 17px 0;
+}
+
 .page-info--photo {
   padding: 37px 10px 30px 10px;
 }
@@ -21,6 +25,11 @@
   line-height: 26px;
   color: #333333;
   padding: 0;
+}
+
+.page-info__text--form {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .page-info__text--photo {

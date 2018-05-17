@@ -43,9 +43,9 @@
       </div>
     </header>
     <main class="page-main page-main--form">
-      <div class="page-info">
+      <div class="page-info page-info--form">
         <h1 class="page-info__header">Оставьте свой отзыв</h1>
-        <p class="page-info__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <p class="page-info__text page-info__text--form">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </div>
       <form class="contact-form" action="#" method="POST">
         <div class="contact-form__container">
@@ -54,7 +54,9 @@
               <legend class="contact-form__title">Представьтесь:</legend>
               <div class="contact-form__group">
                 <label class="contact-form__label" for="name">Имя*:</label>
-                <input class="contact-form__input" type="text" name="name" id="name" placeholder="Петр" required>
+                <div class="contact-form__inner">
+                  <input class="contact-form__input" type="text" name="name" id="name" placeholder="Петр" required>
+                </div>
               </div>
               <div class="contact-form__group">
                 <label class="contact-form__label" for="surename">Фамилия*:</label>
@@ -62,7 +64,7 @@
               </div>
               <div class="contact-form__group">
                 <label class="contact-form__label" for="middlename">Отчество:</label>
-                <input class="contact-form__input" type="text" name="middlename" id="middlename" placeholder="Иванов">
+                <input class="contact-form__input" type="text" name="middlename" id="middlename" placeholder="Александрович">
               </div>
             </fieldset>
           </div>

@@ -7,7 +7,7 @@
   border: none;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 0 20px;
   margin: 0;
   position: relative;
 }
@@ -16,9 +16,12 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 800;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
   position: relative;
   background: white;
+  width: 100%;
+  display: table-cell;
+  text-align: center;
 }
 
 .contact-form__label--phone {
@@ -75,13 +78,13 @@
 .contact-form__label {
   font-size: 14px;
   line-height: 26px;
-  margin-right: 10px;
+  margin-right: 16px;
   color: #333333;
 }
 
 .contat-form__item {
   border-top: 1px solid #e5e5e5;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .contact-form__group {
@@ -105,9 +108,8 @@
 }
 
 .contact-form__input {
-  flex-grow: 1;
   border: 0;
-  padding: 19px 28px 19px 22px;
+  padding: 16px 28px 16px 20px;
   background-color: #f2f2f2;
   outline: none;
   font-size: 18px;
@@ -119,6 +121,8 @@
 
 .contact-form__input::placeholder {
   color: #000000;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .contact-form__input:hover {
