@@ -7,9 +7,9 @@
   border: none;
   display: flex;
   flex-direction: column;
-  padding: 0 20px;
   margin: 0;
   position: relative;
+  min-width:auto;
 }
 
 .contact-form__title {
@@ -82,7 +82,7 @@
   color: #333333;
 }
 
-.contat-form__item {
+.contact-form__item {
   border-top: 1px solid #e5e5e5;
   padding: 20px 0;
 }
@@ -117,6 +117,11 @@
   color: #000000;
   font-weight: 700;
   position: relative;
+  width: 100%;
+}
+
+.contact-form__inner {
+  width: 100%;
 }
 
 .contact-form__input::placeholder {
@@ -241,23 +246,22 @@
   background-position: center;
 }
 
-.contat-form__text-review {
+.contact-form__text-review {
   border-top: 1px solid #e5e5e5;
   display: flex;
   flex-direction: column;
-  padding: 25px 20px;
+  padding: 25px 0px;
   position: relative;
 }
 
-.contat-form__text-review-title {
+.contact-form__text-review-title {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: 26px;
 }
 
-.contat-form__text-review-area {
+.contact-form__text-review-area {
   background-color: #f2f2f2;
-  padding: 20px;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -267,23 +271,22 @@
   width: 100%;
 }
 
-.contat-form__text-review-area::placeholder {
+.contact-form__text-review-area::placeholder {
   color: #000000;
   font-weight: 700;
 }
 
-.contat-form__text-review-area:hover {
+.contact-form__text-review-area:hover {
   background-color: #e5e5e5;
 }
 
-.contat-form__text-review-area:active,
-.contat-form__text-review-area:focus {
+.contact-form__text-review-area:active,
+.contact-form__text-review-area:focus {
   background-color: #ffffff;
   box-shadow: inset 2px 2px 0 #e5e5e5, inset -2px -2px 0 #e5e5e5;
 }
 
 .contact-form__submit-group {
-  padding: 20px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -304,7 +307,7 @@
     flex-wrap: wrap;
   }
 
-  .contat-form__item {
+  .contact-form__item {
     border: 0;
   }
 
@@ -313,7 +316,7 @@
     width: 50%;
   }
 
-  .contat-form__name {
+  .contact-form__name {
     order: 2;
     width: 50%;
   }
@@ -332,7 +335,7 @@
     width: 250px;
   }
 
-  .contat-form__text-review {
+  .contact-form__text-review {
     order: 5;
     width: 100%;
     border: 0;
@@ -379,7 +382,7 @@
     top: 10px;
   }
 
-  .contat-form__text-review::before {
+  .contact-form__text-review::before {
     top: 35px;
   }
 
