@@ -56,19 +56,23 @@
 
 @media (min-width: $desktop-width) {
   .page-footer {
-    padding: 35px 0;
+    padding: 95px 0 35px 0;
   }
 
   .page-footer__hash-tag {
-    padding-left: 105px;
+    padding-left: 130px;
   }
 
   .page-footer__copyright {
-    padding-right: 100px;
+    padding-right: 35px;
   }
 
   .page-footer--photo {
     padding: 50px 0;
+  }
+
+  .page-footer__social {
+    padding-right: 80px;
   }
 
   .page-footer__hash-tag--photo {

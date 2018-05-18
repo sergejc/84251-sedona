@@ -1,7 +1,7 @@
 .contact-form__container {
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 8px;
 }
 
 .contact-form__fieldset {
@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0 20px;
   position: relative;
-  min-width:auto;
+  min-width: auto;
 }
 
 .contact-form__title {
@@ -28,6 +28,7 @@
 .contact-form__label--phone {
   text-align: left;
   margin-left: 15px;
+  margin-bottom: 7px;
 }
 
 .contact-form__input.contact-form__input--phone {
@@ -82,10 +83,6 @@
   color: #333333;
 }
 
-.contact-form__label--phone {
-  margin-bottom: 7px;
-}
-
 .contact-form__item {
   border-top: 1px solid #e5e5e5;
 }
@@ -93,6 +90,7 @@
 .contact-form__group {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .contact-form__group--phone {
@@ -109,10 +107,6 @@
 
 .contact-form__phone {
   padding-top: 23px;
-}
-
-.contact-form__group {
-  margin-bottom: 20px;
 }
 
 .contact-form__input {
@@ -201,7 +195,7 @@
 }
 
 .contact-form__label--radio:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .contact-form__sightseeing-wrapper {
@@ -318,16 +312,17 @@
   padding: 17px 0 31px 0;
 }
 
-.contact-form__label--radio:not(:last-child) {
-  margin-bottom: 0px;
-}
 .contact-form__name {
   padding-top: 18px;
 }
 
 
 .contact-form__sightseeing {
-  padding: 20px 0 58px 0;
+  padding: 32px 0 58px 0;
+}
+
+.contact-form__sightseeing .contact-form__title {
+  margin-bottom: 40px;
 }
 
 .contact-form__legend-wrapper {
@@ -350,18 +345,20 @@
     order: -1;
     width: 50%;
     margin-bottom: 51px;
+    padding: 0;
+    border-right: 1px solid #f2f2f2;
   }
 
   .contact-form__name {
     order: 2;
     width: 50%;
-    padding-top: 18px;
+    padding: 18px 0 0 0;
   }
 
   .contact-form__phone {
     order: 3;
     width: 100%;
-    padding-top: 22px;
+    padding-top: 14px;
   }
 
   .contact-form__sightseeing {
@@ -377,6 +374,12 @@
     order: 5;
     width: 100%;
     border: 0;
+    margin-bottom: 60px;
+    padding: 0;
+  }
+
+  .contact-form__text-review .contact-form__title {
+    margin-bottom: 60px;
   }
 
   .contact-form__sightseeing-wrapper {
@@ -391,6 +394,7 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+    padding: 0;
   }
 
   .contact-form__submit {
@@ -428,22 +432,6 @@
     padding: 0;
   }
 
-  .contact-form__submit-group {
-    padding: 0;
-  }
-
-  .contact-form__text-review {
-    padding: 0;
-  }
-
-  .contact-form__name {
-    padding: 0;
-  }
-
-  .contact-form__impression {
-    padding: 0;
-  }
-
   .contact-form__title {
     text-align: left;
     font-size: 21px;
@@ -453,27 +441,20 @@
 
   .contact-form__title--center {
     padding: 0 60px;
+    text-align: center;
+    margin-bottom: 75px;
   }
 
   .contact-form__fieldset--left {
-    padding-left: 62px;
+    padding-left: 78px;
   }
 
   .contact-form__label--radio:not(:last-child) {
     margin-bottom: 13px;
   }
 
-  .contact-form__title--center {
-    text-align: center;
-    margin-bottom: 25px;
-  }
-
   .contact-form__group--phone {
     margin-bottom: 32px;
-  }
-
-  .contact-form__impression {
-    border-right: 1px solid #f2f2f2;
   }
 
   .contact-form__legend-wrapper {
@@ -509,6 +490,11 @@
 
   .contact-form__submit {
     width: 480px;
+  }
+
+  .contact-form__phone .contact-form__label {
+    text-align: left;
+    margin-left: 0;
   }
 
   .contact-form__label--desk {
