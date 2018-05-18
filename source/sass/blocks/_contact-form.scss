@@ -1,7 +1,7 @@
 .contact-form__container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
+  padding-top: 20px;
 }
 
 .contact-form__fieldset {
@@ -85,11 +85,6 @@
 
 .contact-form__item {
   border-top: 1px solid #e5e5e5;
-  padding: 20px 0;
-}
-
-.contact-form__name {
-  padding: 20px 0 27px 0;
 }
 
 .contact-form__group {
@@ -106,6 +101,10 @@
 .contact-form__phone .contact-form__label {
   text-align: left;
   margin-left: 20px;
+}
+
+.contact-form__phone {
+  padding-top: 23px;
 }
 
 .contact-form__group {
@@ -310,10 +309,6 @@
   display: none;
 }
 
-.contact-form__phone {
-  padding: 16px 0 35px 0;
-}
-
 .contact-form__impression {
   padding: 17px 0 31px 0;
 }
@@ -321,6 +316,10 @@
 .contact-form__label--radio:not(:last-child) {
   margin-bottom: 0px;
 }
+.contact-form__name {
+  padding-top: 18px;
+}
+
 
 .contact-form__sightseeing {
   padding: 20px 0 58px 0;
@@ -345,11 +344,13 @@
   .contact-form__name {
     order: 2;
     width: 50%;
+    padding-top: 18px;
   }
 
   .contact-form__phone {
     order: 3;
     width: 100%;
+    padding-top: 22px;
   }
 
   .contact-form__sightseeing {

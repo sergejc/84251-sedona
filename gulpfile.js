@@ -38,7 +38,7 @@ gulp.task("copy", function(){
 
 gulp.task("serve", ["style"], function() {
     server.init({
-        server: "source/",
+        server: "build/",
         notify: false,
         open: true,
         cors: true,
@@ -49,4 +49,4 @@ gulp.task("serve", ["style"], function() {
     gulp.watch("source/*.html").on("change", server.reload);
 });
 
-gulp.task("build", ["style", "minifyhtml", "copy"]);
+gulp.task("build", ["style", "minifyhtml", "copy", "serve"]);
