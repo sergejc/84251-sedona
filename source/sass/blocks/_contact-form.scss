@@ -21,7 +21,7 @@
   margin-bottom: 21px;
   position: relative;
   background: white;
-  width: 100%;
+  width: auto;
   text-align: center;
 }
 
@@ -443,6 +443,10 @@
     font-size: 21px;
     line-height: 26px;
     margin-bottom: 56px;
+  }
+
+  .contact-form__title--center {
+    padding: 0 60px;
   }
 
   .contact-form__fieldset--left {
