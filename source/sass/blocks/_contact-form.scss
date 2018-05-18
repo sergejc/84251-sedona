@@ -108,7 +108,7 @@
   margin-left: 20px;
 }
 
-.contact-form__group:not(:last-child) {
+.contact-form__group {
   margin-bottom: 20px;
 }
 
@@ -456,6 +456,9 @@
     width: 462px;
   }
 
+  .contact-form__group--phone {
+    margin-bottom: 32px;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -496,4 +499,7 @@
     margin-right: 0;
   }
 
+  .contact-form__label {
+    margin-left: 0;
+  }
 }
