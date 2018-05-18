@@ -331,6 +331,12 @@
   padding: 20px 0 58px 0;
 }
 
+.contact-form__legend-wrapper {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (min-width: $tablet-width) {
   .contact-form__container {
     flex-direction: row;
@@ -466,6 +472,10 @@
   .contact-form__group--phone {
     margin-bottom: 32px;
   }
+
+  .contact-form__impression {
+    border-right: 1px solid #f2f2f2;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -508,5 +518,9 @@
 
   .contact-form__label {
     margin-left: 0;
+  }
+
+  .contact-form__label--checkbox {
+    width: auto;
   }
 }
