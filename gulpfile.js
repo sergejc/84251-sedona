@@ -44,7 +44,6 @@ gulp.task("serve", ["style", "copy"], function() {
         cors: true,
         ui: false
     });
-
     gulp.watch("source/sass/**/*.{scss,sass}", ["style"]);
     gulp.watch("source/*.html").on("change", server.reload);
 });
