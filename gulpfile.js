@@ -36,7 +36,7 @@ gulp.task("copy", function(){
         .pipe(gulp.dest('./build/'));
 });
 
-gulp.task("serve", ["style"], function() {
+gulp.task("serve", ["style", "copy"], function() {
     server.init({
         server: "build/",
         notify: false,

@@ -28,7 +28,6 @@
 .contact-form__label--phone {
   text-align: left;
   margin-left: 15px;
-  background: url("../img/icon-phone.svg") no-repeat;
 }
 
 .contact-form__input.contact-form__input--phone {
@@ -332,7 +331,7 @@
 }
 
 .contact-form__legend-wrapper {
-  width: 200px;
+  width: 250px;
   margin: 0 auto;
   text-align: center;
 }
@@ -475,6 +474,10 @@
 
   .contact-form__impression {
     border-right: 1px solid #f2f2f2;
+  }
+
+  .contact-form__legend-wrapper {
+    width: 430px;
   }
 }
 
