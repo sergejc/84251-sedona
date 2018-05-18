@@ -44,13 +44,13 @@
     </header>
     <main class="page-main page-main--form">
       <div class="page-info page-info--form">
-        <h1 class="page-info__header">Оставьте свой отзыв</h1>
+        <h1 class="page-info__header page-info__header--form">Оставьте свой отзыв</h1>
         <p class="page-info__text page-info__text--form">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </div>
       <form class="contact-form" action="#" method="POST">
         <div class="contact-form__container">
           <div class="contact-form__item contact-form__name">
-            <fieldset class="contact-form__fieldset">
+            <fieldset class="contact-form__fieldset contact-form__fieldset--left">
               <legend class="contact-form__title">Представьтесь:</legend>
               <div class="contact-form__group">
                 <label class="contact-form__label" for="name">Имя*:</label>
@@ -74,7 +74,7 @@
           </div>
           <div class="contact-form__item contact-form__phone">
             <fieldset class="contact-form__fieldset contact-form__fieldset--line">
-              <legend class="contact-form__title">Контактная информация:</legend>
+              <legend class="contact-form__title contact-form__title--center">Контактная информация:</legend>
               <div class="contact-form__phone-wrapper">
                 <div class="contact-form__group contact-form__group--phone contact-form__icon-phone">
                   <label class="contact-form__label" for="phone">
@@ -107,7 +107,7 @@
           </div>
           <div class="contact-form__item contact-form__sightseeing">
             <fieldset class="contact-form__fieldset contact-form__fieldset--line">
-              <legend class="contact-form__title">посещенные достопримечательности:</legend>
+              <legend class="contact-form__title contact-form__title--center">посещенные достопримечательности:</legend>
               <div class="contact-form__sightseeing-wrapper">
                 <input id="sightseeing1" class="contact-form__checkbox visually-hidden" type="checkbox" name="sightseeing[]" value="val1"
                   checked>
@@ -128,8 +128,7 @@
           </div>
           <div class="contact-form__text-review">
             <b class="contact-form__text-review-title">Опишите свои эмоции:</b>
-            <textarea name="contact-form__text-review-area" class="contact-form__text-review-area" placeholder="Опишите подробно все свои восторги"
-              cols="30" rows="10"></textarea>
+            <textarea name="contact-form__text-review-area" class="contact-form__text-review-area" placeholder="Опишите подробно все свои восторги"></textarea>
           </div>
 
         </div>
@@ -140,7 +139,7 @@
         </div>
       </form>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer page-footer--form">
       <div class="page-footer__hash-tag hash-tag">
         <a class="hash-tag__link" href="https://twitter.com/hashtag/hashtag">#visitsedona</a>
       </div>
@@ -202,7 +201,7 @@
       <h2 class="popup__title popup__title--fail">Что-то пошло не так!</h2>
       <p class="popup__desc popup__desc--fail">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить.</p>
     </div>
-      <button class="button popup__button popup__button--fail" type="button">OK</button>
+    <button class="button popup__button popup__button--fail" type="button">OK</button>
   </div>
 </body>
 
